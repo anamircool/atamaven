@@ -17,8 +17,9 @@ public class doubleClick {
 			///To do double click 
 			Actions obj=new Actions(newdriver);
 			obj.doubleClick(newdriver.findElement(By.id("doubleClickBtn"))).perform(); 
-			obj.contextClick(newdriver.findElement(By.id("rightClickBtn"))).perform(); ;
-
+			obj.contextClick(newdriver.findElement(By.id("rightClickBtn"))).perform(); 
+			System.out.println(obj.getClass());
+ 
 		}
 
 	}

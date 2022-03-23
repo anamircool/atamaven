@@ -8,7 +8,7 @@ public class checkBoxexample {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		System.setProperty("webdriver.gecko.driver", "C:\\Users\\LENOVO\\eclipse-workspace\\SeleniumProject\\Resources\\geckodriver.exe");
+		System.setProperty("webdriver.gecko.driver", "Resources\\geckodriver.exe");
 		FirefoxDriver driver=new FirefoxDriver();
 		driver.get("https://demoqa.com/checkbox");
 		//System.out.println(driver.getTitle());

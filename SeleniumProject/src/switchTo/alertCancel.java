@@ -11,7 +11,7 @@ public class alertCancel {
 	
 
 		public static void main(String[] args) throws InterruptedException {
-			System.setProperty("webdriver.chrome.driver", "C:\\Users\\LENOVO\\eclipse-workspace\\SeleniumProject\\Resources\\chromedriver.exe");
+			System.setProperty("webdriver.chrome.driver", "Resources/chromedriver.exe");
 			//When you create object then automatically browser will lauch
 			ChromeDriver driver=new ChromeDriver(); //driver is a reference of chromedriver class
 			//Enter the URL which you want to enter in the browser

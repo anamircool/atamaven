@@ -24,6 +24,7 @@ public class checkBoxApproch3 {
 		ChromeDriver driver=new ChromeDriver(); //driver is a reference of chromedriver class
 		//Enter the URL which you want to enter in the browser
 		driver.get("https://demoqa.com/checkbox");
+		
 		//Find the address of home checkbox
 		/*
 		 * List<WebElement>
